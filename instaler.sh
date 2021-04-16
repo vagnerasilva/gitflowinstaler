@@ -2,10 +2,10 @@
 
 # git-flow make-less installer for *nix systems, by Rick Osborne
 # Based on the git-flow core Makefile:
-# http://github.com/nvie/gitflow/blob/master/Makefile
+# https://github.com/vagnerasilva/gitflow/blob/master/Makefile
 
 # Licensed under the same restrictions as git-flow:
-# http://github.com/nvie/gitflow/blob/develop/LICENSE
+# https://github.com/vagnerasilva/gitflow/blob/develop/LICENSE
 
 # Does this need to be smarter for each host OS?
 if [ -z "$INSTALL_PREFIX" ] ; then
@@ -17,7 +17,8 @@ if [ -z "$REPO_NAME" ] ; then
 fi
 
 if [ -z "$REPO_HOME" ] ; then
-	REPO_HOME="http://github.com/nvie/gitflow.git"
+	##REPO_HOME="http://github.com/nvie/gitflow.git"
+	REPO_HOME="https://github.com/vagnerasilva/gitflow.git"
 fi
 
 EXEC_FILES="git-flow"
